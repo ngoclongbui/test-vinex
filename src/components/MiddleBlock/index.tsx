@@ -44,10 +44,9 @@ const MiddleBlock = ({ title, content, logger, placeholderLogger = "", loggerNam
               )}
               {button && (
                 <Button name="submit" onClick={() => (logger ? printValue() : scrollTo("mission"))}>
-                  {t(button)}
+                  {result || t(button)}
                 </Button>
               )}
-              <Content style={{ textAlign: "start" }}>{result}</Content>
             </Col>
           </ContentWrapper>
         </Row>
