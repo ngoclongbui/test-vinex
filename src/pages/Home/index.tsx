@@ -28,6 +28,9 @@ const Home = () => {
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
+        placeholderLogger={MiddleBlockContent.placeholderLogger}
+        loggerName={"logger"}
+        logger={true}
       />
       <ContentBlock
         direction="left"
@@ -51,11 +54,7 @@ const Home = () => {
         icon="waving.svg"
         id="product"
       />
-      <Contact
-        title={ContactContent.title}
-        content={ContactContent.text}
-        id="contact"
-      />
+      <Contact title={ContactContent.title} content={ContactContent.text} id="contact" />
     </Container>
   );
 };

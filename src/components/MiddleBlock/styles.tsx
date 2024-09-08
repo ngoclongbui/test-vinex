@@ -23,3 +23,8 @@ export const ContentWrapper = styled("div")`
     max-width: 100%;
   }
 `;
+
+export const InputStyle = styled("input")`
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+`;
