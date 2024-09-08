@@ -63,11 +63,11 @@ export const Styles = createGlobalStyle`
         line-height: 1.18;
 
         @media only screen and (max-width: 890px) {
-          font-size: 47px;
+            font-size: 47px;
         }
-      
+
         @media only screen and (max-width: 414px) {
-          font-size: 32px;
+            font-size: 32px;
         }
     }
 
@@ -110,7 +110,6 @@ export const Styles = createGlobalStyle`
         width: 300px !important;
     }
 
-    
     ::-webkit-scrollbar {
         width: 8px;
     }
