@@ -109,4 +109,23 @@ export const Styles = createGlobalStyle`
     .ant-drawer-content-wrapper {
         width: 300px !important;
     }
+
+    
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(231 231 231);
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(24, 33, 109, 0.5);
+        border-radius: 4px;
+        
+        &:hover {
+            background-color: rgba(24, 33, 109, 0.8);
+        }
+    }
 `;
