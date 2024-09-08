@@ -42,6 +42,15 @@ const Home = () => {
       />
       <ContentBlock
         direction="right"
+        mirror={true}
+        title={AboutContent.title}
+        content={AboutContent.text}
+        section={AboutContent.section}
+        icon="graphs.svg"
+        id="about"
+      />
+      <ContentBlock
+        direction="right"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="product-launch.svg"
